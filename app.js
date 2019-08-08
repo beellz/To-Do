@@ -10,3 +10,8 @@ function start(){
     node.appendChild(textnode);                              // Append the text to <li>
     document.getElementById("li-on").appendChild(node);    // Append <li> to <ul> with id="myList"
 }
+
+
+function removeLast() {
+    console.log("do");
+}
