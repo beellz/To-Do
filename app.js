@@ -13,5 +13,6 @@ function start(){
 
 
 function removeLast() {
-    console.log("do");
+    let list = document.getElementById("li-on");
+    list.removeChild(list.childNodes[0]);
 }
