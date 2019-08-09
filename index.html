@@ -11,11 +11,12 @@
     <div class="main">
         <h2 >To Do</h2>
         <div class="all">
-        <input class="input-add" type="text">
-        <button class=add onclick="start();">Add</button>
+        <input id="myInput" type="text">
+        <button class=add onclick="newElement()">Add</button>
         <button class="removeLast" onclick="removeLast();">remove last </button>
-      
-        <ul id="li-on"></ul>
+        <!-- <span onclick="newElement()" class="addBtn">Add</span> -->
+        <ul id="myUL"></ul>
+        
     </div>
     </div>
     <script src="app.js"></script>
