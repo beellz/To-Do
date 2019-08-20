@@ -1,14 +1,22 @@
 
 h2 {
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .main {
     text-align: center;
-    width: 200px;
+    width: auto;
     
 }
 
 .all {
-    padding-top : 30px;
+    padding-top : 10px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+ul span {
+    padding: 25px;
 }
